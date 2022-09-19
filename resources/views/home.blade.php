@@ -7,7 +7,7 @@
 @section('content')
     <div class="row g-2 text-center">
       <div class="col-3 text-light">
-        <div class="p-3 bg-primary rounded mt-3"> {{$barang->count()}} Barang <i class="fa fa-boxes"></i>  </div>
+        <div class="p-3 bg-success rounded mt-3"> {{$barang->count()}} Barang <i class="fa fa-boxes"></i>  </div>
       </div>
 
       <div class="col-3 text-light">
@@ -19,7 +19,7 @@
       </div>
 
       <div class="col-3">
-        <div class="p-3 rounded bg-info mt-3"> 50 Member <i class="fa fa-users"></i></div>
+        <div class="p-3 rounded bg-light mt-3"> 3 <i class="fa fa-users"></i></div>
       </div>
     </div>
 @endsection
