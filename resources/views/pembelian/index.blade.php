@@ -58,7 +58,7 @@
           @csrf
           <div class="form-group mb-3">
             <label for="barang">Barang</label>
-            <select name="barang_id" id="barang_id" class="form-control">
+            <select name="barang_id" autocomplete="off" id="barang_id" class="form-control">
               @foreach ($barang as $item)
                   <option value="{{ $item->id }}">{{ $item->nama }}</option>
               @endforeach

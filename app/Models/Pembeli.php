@@ -12,4 +12,8 @@ class Pembeli extends Model
     protected $table = 'pembeli';
 
     protected $guarded = [];
+
+    public function penjualan(){
+        return $this->hasMany(Penjualan::class);
+    }
 }

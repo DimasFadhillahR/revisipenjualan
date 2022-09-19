@@ -12,4 +12,12 @@ class Penjualan extends Model
     protected $table = 'penjualan';
 
     protected $guarded = [];
+
+    public function barang(){
+        return $this->belongsTo(Barang::class);
+    }
+
+    public function pembeli(){
+        return $this->belongsTo(Pembeli::class);
+    }
 }

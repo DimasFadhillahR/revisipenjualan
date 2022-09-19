@@ -17,7 +17,7 @@
           @method('PUT')
           <div class="form-group">
             <label for="nama">Nama</label>
-            <input type="text" name="nama" id="nama" value="{{$pembeli->nama}}" class="form-control @error('nama') is-invalid @enderror">
+            <input type="text" name="nama" autocomplete="off" id="nama" value="{{$pembeli->nama}}" class="form-control @error('nama') is-invalid @enderror">
             @error('nama')
                 <div class="text-danger">
                   {{ $message }}

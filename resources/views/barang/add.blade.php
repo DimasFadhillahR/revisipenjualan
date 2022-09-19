@@ -74,7 +74,7 @@
 
         <div class="col-lg-4">
           <div class="form-group">
-            <label for="kategori" class="form-label">kategori</label>
+            <label for="kategori" class="form-label">Kategori</label>
             <select name="kategori_id" id="kategori_id" class="form-control @error('kategori_id') is-invalid @enderror">
               @foreach ($kategori as $item)
                   <option value="{{$item->id}}">{{$item->nama}}</option>
